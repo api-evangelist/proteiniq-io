@@ -1,4 +1,4 @@
-# proteiniq-io
+# ProteinIQ.io
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,135 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-proteiniq-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://proteiniq.io/
+ProteinIQ.io provides a cloud‑based platform for running bioinformatics tools and workflows directly in the browser. Users can submit jobs such as protein structure prediction, molecular docking, and sequence alignment, leveraging GPU‑accelerated compute without installing software. The service supports over 290 published tools, integrates with Python SDKs, and offers API access for automation. It serves researchers in academia and industry, with pricing plans for free trials and paid usage, and is trusted by thousands of scientists worldwide.
+
+**Areas:** Company · Bioinformatics · Cloud · GPU · API · Platform
+
+## ProteinIQ.io on APIs.io
+
+Everything profiled for ProteinIQ.io is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/proteiniq-io/](https://apis.io/providers/proteiniq-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [ProteinIQ Public API](https://apis.io/apis/proteiniq-io/proteiniq-public-api/) — Run ProteinIQ tools and workflows, inspect jobs, stream status updates, and fetch results.
+- [ProteinIQ Public API API](https://apis.io/apis/proteiniq-io/proteiniq-public-api-api/) — Run ProteinIQ tools and workflows, inspect jobs, stream status updates, and fetch results from code.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Account](https://apis.io/schemas/proteiniq-io/proteiniq-io-account/)
+- [File](https://apis.io/schemas/proteiniq-io/proteiniq-io-file/)
+- [Job](https://apis.io/schemas/proteiniq-io/proteiniq-io-job/)
+- [JobQuote](https://apis.io/schemas/proteiniq-io/proteiniq-io-job-quote/)
+- [JobResult](https://apis.io/schemas/proteiniq-io/proteiniq-io-job-result/)
+- [ProjectDeletion](https://apis.io/schemas/proteiniq-io/proteiniq-io-project-deletion/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Proteiniq Io Context](https://apis.io/jsonld/proteiniq-io/proteiniq-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [ProteinIQ.io API Rules](https://apis.io/rules/proteiniq-io/proteiniq-io-rules/)
+
+#### Security (4)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [ProteinIQ.io Authentication](https://apis.io/security/proteiniq-io/proteiniq-io-authentication/)
+- [ProteinIQ.io Domain Security](https://apis.io/security/proteiniq-io/proteiniq-io-domain-security/)
+- [ProteinIQ.io Trust Center](https://apis.io/security/proteiniq-io/proteiniq-io-trust-center/)
+- [ProteinIQ.io Vulnerability Disclosure](https://apis.io/security/proteiniq-io/proteiniq-io-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [ProteinIQ.io Plans Pricing](https://apis.io/plans/proteiniq-io/proteiniq-io-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [ProteinIQ.io Rate Limits](https://apis.io/rate-limits/proteiniq-io/proteiniq-io-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://proteiniq.io/)
+- [Documentation](https://proteiniq.io/docs)
+- [Getting started](https://proteiniq.io/docs/api/mcp)
+- [API reference](https://proteiniq.io/llms.txt)
+- [Pricing](https://proteiniq.io/pricing)
+- [Changelog](https://proteiniq.io/docs/changelog)
+- [Blog](https://proteiniq.io/blog)
+- [Security](https://proteiniq.io/security)
+- [Compliance](https://proteiniq.io/security)
+- [Terms of service](https://proteiniq.io/legal/terms)
+- [Privacy policy](https://proteiniq.io/legal/privacy)
+
+## API Evangelist rating
+
+**Kin Score 61.2** — strong · rubric 0.28.0 · scored 2026-11-22
+
+| Facet | Score |
+|---|---|
+| Discoverability | 76.8 |
+| Contract quality | 50.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 41.0 |
+| Developer ergonomics | 42.9 |
+| Access clarity | 71.9 |
+
+**Agent readiness 36.9** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | documented (partial credit) |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 35.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/proteiniq-io/](https://apis.io/providers/proteiniq-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for ProteinIQ.io: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/proteiniq-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
